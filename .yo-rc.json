@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Ryan Myrvold",
+      "authorEmail": "ryan@mervsy.com",
+      "authorUrl": "https://github.com/Mervsy"
+    }
+  }
+}
