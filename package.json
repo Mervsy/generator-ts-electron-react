@@ -1,6 +1,6 @@
 {
 	"name": "generator-ts-electron-react",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "Yeoman Generator that includes Electron, React, and TypeScript.",
 	"homepage": "https://github.com/Mervsy/generator-ts-electron-react",
 	"license": "SEE LICENSE IN <LICENSE>",
