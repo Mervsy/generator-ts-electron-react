@@ -48,12 +48,6 @@ module.exports = class extends Generator {
         message: 'Author website',
         default: ''
       },
-      {
-        type: 'input',
-        name: 'installPackages',
-        message: "Run 'yarn install'?",
-        default: true
-      }
     ];
 
     return this.prompt(prompts).then(props => {
@@ -115,8 +109,7 @@ module.exports = class extends Generator {
   }
 
   install() {
-    if (this.props.installPackages) {
-      this.yarnInstall();
-    }
+    this.yarnInstall();
   }
-};
+}
+
