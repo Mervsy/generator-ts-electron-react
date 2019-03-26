@@ -1,77 +1,70 @@
 {
-  "name": "generator-ts-electron-react",
-  "version": "1.0.1",
-  "description": "Yeoman Generator that includes Electron, React, and TypeScript.",
-  "homepage": "https://github.com/Mervsy/generator-ts-electron-react",
-  "author": {
-    "name": "Ryan Myrvold",
-    "email": "ryan@mervsy.com",
-    "url": "https://github.com/Mervsy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mervsy/generator-ts-electron-react.git"
-  },
-  "files": [
-    "generators"
-  ],
-  "main": "generators/index.js",
-  "keywords": [
-    "electron",
-    "react",
-    "typescript",
-    "yeoman-generator"
-  ],
-  "devDependencies": {
-    "eslint": "^5.15.3",
-    "eslint-config-prettier": "^4.1.0",
-    "eslint-config-xo": "^0.26.0",
-    "eslint-plugin-prettier": "^3.0.1",
-    "husky": "^1.3.1",
-    "jest": "^24.5.0",
-    "lint-staged": "^8.1.5",
-    "prettier": "^1.16.4",
-    "yeoman-assert": "^3.1.1",
-    "yeoman-test": "^1.9.1"
-  },
-  "engines": {
-    "npm": ">= 4.0.0"
-  },
-  "dependencies": {
-    "yeoman-generator": "^3.2.0",
-    "yosay": "^2.0.2"
-  },
-  "jest": {
-    "testEnvironment": "node"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
-  },
-  "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
-    "env": {
-      "jest": true,
-      "node": true
+    "name": "generator-ts-electron-react",
+    "version": "1.0.1",
+    "description": "Yeoman Generator that includes Electron, React, and TypeScript.",
+    "homepage": "https://github.com/Mervsy/generator-ts-electron-react",
+    "author": {
+        "name": "Ryan Myrvold",
+        "email": "ryan@mervsy.com",
+        "url": "https://github.com/Mervsy"
     },
-    "rules": {
-      "prettier/prettier": "error"
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mervsy/generator-ts-electron-react.git"
     },
-    "plugins": [
-      "prettier"
-    ]
-  },
-  "scripts": {
-    "pretest": "eslint .",
-    "test": "jest"
-  }
+    "files": [
+        "generators"
+    ],
+    "main": "generators/index.js",
+    "keywords": [
+        "electron",
+        "react",
+        "typescript",
+        "yeoman-generator"
+    ],
+    "devDependencies": {
+        "eslint": "^5.15.3",
+        "eslint-config-prettier": "^4.1.0",
+        "eslint-config-xo": "^0.26.0",
+        "eslint-plugin-prettier": "^3.0.1",
+        "husky": "^1.3.1",
+        "jest": "^24.5.0",
+        "lint-staged": "^8.1.5",
+        "prettier": "^1.16.4"
+    },
+    "engines": {
+        "npm": ">= 4.0.0"
+    },
+    "dependencies": {
+        "yeoman-generator": "^3.2.0",
+        "yosay": "^2.0.2"
+    },
+    "lint-staged": {
+        "*.js": [
+            "eslint --fix",
+            "git add"
+        ],
+        "*.json": [
+            "prettier --write",
+            "git add"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "xo",
+            "prettier"
+        ],
+        "env": {
+            "node": true
+        },
+        "rules": {
+            "prettier/prettier": "error"
+        },
+        "plugins": [
+            "prettier"
+        ]
+    },
+    "scripts": {
+        "pretest": "eslint ."
+    }
 }

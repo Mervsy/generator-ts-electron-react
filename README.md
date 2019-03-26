@@ -24,5 +24,5 @@ yo ts-electron-react
 
 [npm-image]: https://badge.fury.io/js/generator-ts-electron-react.svg
 [npm-url]: https://npmjs.org/package/generator-ts-electron-react
-[travis-image]: https://travis-ci.org//generator-ts-electron-react.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-ts-electron-react
+[travis-image]: https://travis-ci.org/mervsy/generator-ts-electron-react.svg?branch=master
+[travis-url]: https://travis-ci.org/mervsy/generator-ts-electron-react
