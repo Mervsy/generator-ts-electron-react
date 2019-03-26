@@ -1,7 +1,6 @@
-
 # generator-ts-electron-react
-Yeoman Generator that includes Electron, React, and TypeScript.
 
+Yeoman Generator that includes Electron, React, and TypeScript, implementing [electron-react-typescript](https://github.com/Robinfr/electron-react-typescript) by [Robinfr](https://github.com/Robinfr/)
 
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
@@ -21,6 +20,13 @@ Then generate your new project:
 yo ts-electron-react
 ```
 
+## About
+
+This project utilizes implements [electron-react-typescript](https://github.com/Robinfr/electron-react-typescript) by [Robinfr](https://github.com/Robinfr/)
+
+## License
+
+MIT © [Ryan Myrvold](https://github.com/Robinfr)
 
 [npm-image]: https://badge.fury.io/js/generator-ts-electron-react.svg
 [npm-url]: https://npmjs.org/package/generator-ts-electron-react
