@@ -73,6 +73,5 @@
   "scripts": {
     "pretest": "eslint .",
     "test": "jest"
-  },
-  "private": true
+  }
 }
