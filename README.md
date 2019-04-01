@@ -24,7 +24,7 @@ yo ts-electron-react
 
 ## About
 
-This project utilizes implements [electron-react-typescript](https://github.com/Robinfr/electron-react-typescript) by [Robinfr](https://github.com/Robinfr/)
+This project implements [electron-react-typescript](https://github.com/Robinfr/electron-react-typescript) by [Robinfr](https://github.com/Robinfr/)
 
 ## License
 
