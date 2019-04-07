@@ -5,7 +5,7 @@ Yeoman Generator that includes Electron, React, and TypeScript, implementing [el
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-[![Build Status](https://travis-ci.org/Mervsy/generator-ts-electron-react.svg?branch=master)](https://travis-ci.org/Mervsy/generator-ts-electron-react)
+[![Build Status]()]()
 
 ## Installation
 
@@ -32,5 +32,5 @@ MIT © [Ryan Myrvold](https://github.com/Robinfr)
 
 [npm-image]: https://badge.fury.io/js/generator-ts-electron-react.svg
 [npm-url]: https://npmjs.org/package/generator-ts-electron-react
-[travis-image]: https://travis-ci.org/mervsy/generator-ts-electron-react.svg?branch=master
-[travis-url]: https://travis-ci.org/mervsy/generator-ts-electron-react
+[travis-image]: https://travis-ci.org/Mervsy/generator-ts-electron-react.svg?branch=master
+[travis-url]: https://travis-ci.org/Mervsy/generator-ts-electron-react
