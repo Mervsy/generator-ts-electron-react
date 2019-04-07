@@ -5,7 +5,7 @@ Yeoman Generator that includes Electron, React, and TypeScript, implementing [el
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-![Browserstack](https://raw.githubusercontent.com/Mervsy/generator-ts-electron-react/master/browserstack.png "Browserstack")
+[![Build Status](https://travis-ci.org/Mervsy/generator-ts-electron-react.svg?branch=master)](https://travis-ci.org/Mervsy/generator-ts-electron-react)
 
 ## Installation
 
