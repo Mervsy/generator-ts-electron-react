@@ -5,8 +5,6 @@ Yeoman Generator that includes Electron, React, and TypeScript, implementing [el
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-[![Build Status]()]()
-
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-ts-electron-react using [yarn](https://yarnpkg.com/en/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
