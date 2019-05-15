@@ -17,8 +17,8 @@ Yeoman Generator that includes Electron, React, and TypeScript, implementing [el
 First, install [Yeoman](http://yeoman.io) and generator-ts-electron-react using [yarn](https://yarnpkg.com/en/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-yarn install -g yo
-yarn install -g generator-ts-electron-react
+yarn global add yo
+yarn global add generator-ts-electron-react
 ```
 
 Then generate your new project:
